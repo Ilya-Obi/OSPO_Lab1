@@ -24,12 +24,12 @@
     document.writeln(Indiv1(Admin));
 	document.writeln(Indiv2(Numb1,Numb2));
   </script>
- 	<script> 
+	<script> 
+		var age = "0";
+		while (!confirm('Ваш возраст - '+age))
 		{ 
-			var name = prompt('Как вас зовут?','Введите сюда ваше имя');
-			alert("Ваше имя - "+name) 
-		} alert("Спасибо, что уделилили время")
-		(confirm('Доброго времени суток, у этой страницы есть к вам вопрос, вы готовы ответить?'))
+			var age = prompt('Ваш возраст:',' '); 
+		} 
 	</script>
   </div>
 
