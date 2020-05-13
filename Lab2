@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Lab2</title>
+</head>
+<body>
+  <script>
+    var Name = "Ilya";
+	var Admin = Name;
+	var Numb1 = 7;
+	var Numb2 = 8;
+    function Indiv1(Admin)
+	{
+      return (Admin);
+    };
+	function Indiv2(Numb1,Numb2)
+	{
+	if (Numb1==Numb2)
+		return ("Numbers are equal");
+	else
+		return ("Numbers are not equal");
+	};
+	document.write('<pre>');
+    document.writeln(Indiv1(Admin));
+	document.writeln(Indiv2(Numb1,Numb2));
+  </script>
+ 	<script> 
+		{ 
+			var name = prompt('Как вас зовут?','Введите сюда ваше имя');
+			alert("Ваше имя - "+name) 
+		} alert("Спасибо, что уделилили время")
+		(confirm('Доброго времени суток, у этой страницы есть к вам вопрос, вы готовы ответить?'))
+	</script>
+  </div>
+
+</body>
+</html>
